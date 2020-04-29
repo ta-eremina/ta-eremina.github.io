@@ -1,0 +1,1236 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.cont {
+    width: 1920px;
+    margin: 0 auto;
+}
+
+.clearfiix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.first_block {
+    height: 725px;
+    background-image: url(img/1_title_background.png);
+    display: block;
+
+}
+
+
+/****************верхняя панель***************/
+.header {
+    padding-top: 13px;
+}
+
+.head {
+    height: 83px;
+    background-color: rgb(0%, 0%, 0%, 0.5);
+}
+
+.head_contant {
+    width: 971px;
+    margin: 0 auto 0;
+    padding-top: 18px;
+}
+
+/***********ЛОГОТИП********************/
+.logo {
+    width: 171px;
+    float: left;
+}
+
+.phone {
+    float: left;
+    width: 170px;
+    color: white;
+    margin: 9px 0 0 120px;
+}
+
+.phone p {
+    padding-top: 2px;
+}
+
+.mail {
+    float: left;
+    width: 180px;
+    color: white;
+    margin: 10px 120px 0 0;
+}
+
+.logo_pic {
+    float: left;
+    margin-right: 15px;
+}
+
+/*************поиск*********************/
+.search {
+    float: right;
+}
+
+form {
+    position: relative;
+    width: 208px;
+    margin: 0 auto;
+}
+
+.s {
+    width: 100%;
+    height: 42px;
+    padding: 0 50px 0 10px;
+    border: 1px solid white;
+    outline: none;
+    background: rgba(0, 0, 0, 0.0);
+    color: white;
+    font-size: 16px;
+}
+
+button {
+    position: absolute;
+    top: 0;
+    right: 0px;
+    width: 42px;
+    height: 42px;
+    border: none;
+    border-left: 1px solid white;
+    background: rgba(0, 0, 0, 0.0);
+    cursor: pointer;
+}
+
+/****************МЕНЮ**************************/
+.menu {
+    width: 100%;
+    margin-top: 32px;
+    border-bottom: 1px solid white;
+}
+
+.menu-main {
+    list-style: none;
+    text-align: center;
+    padding-bottom: 14px;
+}
+
+.menu-main li {
+    display: inline-block;
+}
+
+.menu-main li:last-child:after {
+    content: none;
+}
+
+.menu-main a {
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 1.32;
+    letter-spacing: 0.17px;
+    text-align: center;
+    color: #000000;
+    position: relative;
+    padding-bottom: 29px;
+    margin: 0 10px 0 10px;
+    text-decoration: none;
+    /*убираем подчеркивание текста ссылок*/
+}
+
+.menu-main a,
+.menu-main a:visited {
+    color: #000000;
+}
+
+.menu-main a.current,
+.menu-main a:hover {
+    color: #ffffff;
+}
+
+.menu-main a:before,
+.menu-main a:after {
+    content: "";
+    position: absolute;
+    height: 3px;
+    top: auto;
+    right: 50%;
+    bottom: -5px;
+    left: 50%;
+    background: #ffffff;
+    transition: .8s;
+}
+
+.menu-main a:hover:before,
+.menu-main .current:before {
+    left: 0;
+}
+
+.menu-main a:hover:after,
+.menu-main .current:after {
+    right: 0;
+}
+
+/*КОНТЕНТ 1 БЛОКА*/
+.hello {
+    height: auto;
+    width: 590px;
+    margin: 100px auto 0;
+}
+
+.hello p {
+    font-family: 'Roboto', sans-serif;
+    display: block;
+    text-align: center;
+    font-size: 18px;
+    font-weight: normal;
+    font-stretch: condensed;
+    font-style: normal;
+    line-height: 2.67;
+    letter-spacing: 0.18px;
+    color: #ffffff;
+    margin-bottom: 0;
+}
+
+.line {
+    border-top: 2px solid white;
+    width: 80px;
+    margin-left: 253px;
+}
+
+h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 60px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 0.8;
+    letter-spacing: 0.6px;
+    text-align: center;
+    color: #ffffff;
+    padding-top: 76px;
+}
+
+.social {
+    margin-top: 75px;
+    text-align: center;
+
+}
+
+.social li {
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    text-align: center;
+    border: 2px solid white;
+    border-radius: 25px;
+    margin: 0 6px 0 6px;
+}
+
+.social img {
+    padding-top: 12px;
+}
+
+/****************2 БЛОК ABOUT*********************/
+.about {
+    width: 100%;
+    height: 419px;
+    padding-top: 81px;
+    margin-bottom: 81px;
+}
+
+.about_content {
+    height: 338px;
+    width: 971px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 36px;
+    font-weight: 550;
+    line-height: 1;
+    color: #f44336;
+}
+
+.about_content div {
+    width: 398px;
+    display: inline-block;
+    margin-right: 29px;
+
+}
+
+.about_content p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    font-weight: 300;
+    font-stretch: condensed;
+    font-style: normal;
+    line-height: 2;
+    letter-spacing: 0.12px;
+    text-align: left;
+    color: #999999;
+}
+
+.about_content img {
+    float: right;
+}
+
+/******************3 БЛОК СЕРВИСЫ*******************/
+all_servises {
+    width: 990px;
+    height: 540px;
+}
+
+.servises h2 {
+    text-align: center;
+    padding-top: 92px;
+    padding-bottom: 40px;
+}
+
+.servises {
+    height: 762px;
+    background-color: #f7f7f7;
+    padding-left: 464px;
+    padding-right: 466px;
+}
+
+.servises_1,
+.servises_2 {
+    float: left;
+    width: 50%;
+}
+
+.servises_1 ul,
+.servises_2 ul {
+    list-style: none;
+}
+
+.servises_1 li,
+.servises_2 li {
+    height: 180px;
+    padding-top: 36px;
+    padding-bottom: 36px;
+}
+
+.serv_text {
+    width: 295px;
+    float: left;
+}
+
+.serv_text2 {
+    width: 295px;
+    display: inline-block;
+}
+
+.servises_1 h5:hover,
+.servises_2 h5:hover {
+    color: #f44336;
+}
+
+.servises_1 h5 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.16px;
+    text-align: right;
+    color: #000000;
+}
+
+.servises_2 h5 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.16px;
+    text-align: left;
+    color: #000000;
+}
+
+.servises_1 p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+    font-stretch: condensed;
+    font-style: normal;
+    line-height: 1.67;
+    letter-spacing: 0.12px;
+    text-align: right;
+    color: #999999;
+}
+
+.servises_2 p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+    font-stretch: condensed;
+    font-style: normal;
+    line-height: 1.67;
+    letter-spacing: 0.12px;
+    text-align: left;
+    color: #999999;
+}
+
+.roll_1 {
+    display: inline-block;
+    width: 102px;
+    height: 102px;
+    border: solid 1px #acacac;
+    border-radius: 50%;
+    background-color: #e1e1e1;
+    text-align: center;
+    margin: 0 45px;
+}
+
+.roll_2 {
+    float: left;
+    width: 102px;
+    height: 102px;
+    border: solid 1px #acacac;
+    border-radius: 50%;
+    background-color: #e1e1e1;
+    text-align: center;
+    margin: 0 45px;
+}
+
+.roll_1:hover,
+.roll_2:hover {
+    background-color: #f44336;
+}
+
+.all_servises img {
+    margin-top: 40px;
+}
+
+/***********4 БЛОК ГАЛЛЕРЕЯ*******************/
+.gallery {
+    height: 889px;
+}
+
+.gallery h2 {
+    text-align: center;
+    padding: 85px 0;
+}
+
+.games_gallery {
+    height: 600px;
+    margin: 0 330px 0 325px;
+}
+
+.card {
+    float: left;
+    margin: 0 14px;
+    border: none;
+    background-color: #f7f7f7;
+}
+
+.otstup {
+    height: 26px;
+}
+
+.card-body-gal {
+    text-align: center;
+}
+
+.btn_gal {
+    display: block;
+    width: 130px;
+    height: 30px;
+    line-height: 1;
+    background-color: #f44336;
+    border: none;
+    text-align: center;
+    padding-top: 7px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+}
+
+.card-title-gal {
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.71;
+    letter-spacing: 0.14px;
+    text-align: center;
+    margin-top: 20px;
+    color: #000000;
+}
+
+/************* БЛОК Testimonial******************/
+.Testimonial {
+    height: 537px;
+    background-image: url(img/5.png);
+}
+
+.Testimonial_h {
+    font-family: 'Poppins', sans-serif;
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 1;
+    text-align: center;
+    color: #ffffff;
+    padding: 80px 0 60px;
+}
+
+.Testimonial_content {
+    width: 1300px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.carousel_content {
+    width: 870px;
+    font-family: 'RobotoCondensed-Light', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    font-stretch: condensed;
+    line-height: 1.71;
+    text-align: center;
+    color: #ffffff;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.carousel_content span {
+    padding-top: 15px;
+}
+
+.carousel_icon {
+    margin-bottom: 35px;
+}
+
+.carousel-control-prev div,
+.carousel-control-next div {
+    border: 1px solid white;
+    padding: 7px 9px 5px;
+    margin-top: 20px;
+}
+
+/***********5 БЛОК НОВОСТИ*******************/
+.news {
+    height: 888px;
+}
+
+.news_content {
+    margin-right: 375px;
+    margin-left: 375px;
+}
+
+.news_content h2 {
+    text-align: center;
+    padding: 97px 0;
+}
+
+.news_part {
+    width: 49%;
+    height: 545px;
+    float: left;
+    padding-left: 40px;
+}
+
+.events_part {
+    width: 49%;
+    height: 545px;
+    float: right;
+}
+
+.news_part li {
+    list-style: none;
+    height: 158px;
+}
+
+.news_h {
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 2;
+    text-align: left;
+    color: #000000;
+}
+
+.oval {
+    width: 98px;
+    height: 139px;
+    border-radius: 49px;
+    background-color: #f7f7f7;
+    border: 1px solid #e8e8e8;
+    padding: 0 30px;
+    float: left;
+}
+
+.oval p {
+    width: 34px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 2;
+    text-align: center;
+    color: #9e9e9e;
+}
+
+.oval span {
+    font-size: 32px;
+    color: #000000;
+}
+
+.news_text {
+    width: 308px;
+    margin-left: 170px;
+    padding-top: 15px;
+}
+
+h6 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    font-stretch: condensed;
+    line-height: 3;
+    text-align: left;
+    color: #f44336;
+}
+
+.news_text p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    font-stretch: condensed;
+    line-height: 1.71;
+    text-align: left;
+    color: #9e9e9e;
+}
+
+.events_h {
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 2;
+    text-align: left;
+    color: #000000;
+    float: left;
+    padding-right: 300px;
+    margin-bottom: 0px;
+}
+
+.p_round,
+.n_round {
+    text-decoration: none;
+    display: inline-block;
+    padding: 0px 2px;
+    font-family: 'Poppins', Sans-Serif;
+    font-size: 44px;
+    font-weight: 500;
+    line-height: 1;
+    color: #000000;
+    margin-bottom: 0px;
+}
+
+a:hover {
+    color: grey;
+}
+
+.events_pictures {
+    height: 190px;
+    width: 570px;
+    border-top: 1px solid #9e9e9e;
+    margin-top: -15px;
+}
+
+.events_pictures img {
+    float: left;
+    margin-top: 32px;
+}
+
+.events_pictures img:hover {
+    outline: 1px solid #9e9e9e
+}
+
+.card {
+    width: 570px;
+    margin-left: 0;
+}
+
+.card-header {
+    height: 36px;
+}
+
+.btn-link {
+    background-color: #ffffff;
+    width: 567px;
+    font-family: 'RobotoCondensed-Light', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1;
+    text-align: left;
+    color: #000000;
+    border-radius: 4px;
+    box-shadow: 0px 1px 3px 0 rgba(0, 0, 0, 0.2);
+    border: solid 1px #ffffff;
+    margin: 2px;
+}
+
+.btn-link:hover {
+    text-decoration: none;
+    color: #505050;
+}
+
+.btn-link:checked {
+    text-decoration: none;
+}
+
+.card-body {
+    height: 144px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.71;
+    text-align: left;
+    color: #505050;
+    padding-top: 35px;
+}
+
+/***********6 БЛОК КОМАНДА*******************/
+.team {
+    height: 785px;
+    background-color: #f7f7f7;
+}
+
+.team h2 {
+    text-align: center;
+    padding: 98px 0 60px;
+}
+
+.all_team {
+    padding: 0 375px;
+}
+
+.team_card {
+    float: left;
+}
+
+.team-card-title {
+    font-family: 'Poppins-Medium', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    text-align: left;
+    color: #f44336;
+    padding-top: 20px;
+    line-height: 1;
+}
+
+.team-card-text {
+    font-family: 'RobotoCondensed-Light', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1;
+    text-align: left;
+    color: #838383;
+}
+
+.sosial-btn {
+    width: 30px;
+    height: 30px;
+    border: solid 2px #000000;
+    float: left;
+    margin-right: 17px;
+    text-align: center;
+}
+
+.sosial-btn:hover {
+    background-color: lightgrey;
+}
+
+/***********subscribe************************/
+.subscribe {
+    height: 313px;
+    background-image: url(img/1_title_background.png);
+    background-position: bottom center;
+    padding: 0 645px;
+}
+
+.form-subscribe {
+    width: 499px;
+    height: 55px;
+    background-color: #ffffff;
+    padding-left: 20px;
+    float: left;
+}
+
+.submit-btn {
+    width: 119px;
+    height: 55px;
+    background-color: #f44336;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 3.43;
+    text-align: center;
+    color: #ffffff;
+}
+
+.subscribe form {
+    height: 57px;
+    width: auto;
+}
+
+/***********7 БЛОК КОНТАКТЫ*******************/
+.contact {
+    height: 1111px;
+}
+
+.contact h2 {
+    text-align: center;
+    padding-top: 97px;
+    clear: both;
+}
+
+.all_contacts {
+    padding: 85px 475px 0;
+}
+
+.address {
+    width: 45%;
+    height: 360px;
+    float: left;
+}
+
+.massage {
+    width: 54%;
+    height: 360px;
+    float: right;
+}
+
+.h_ad {
+    font-family: 'RobotoCondensed-Regular', sans-serif;
+    font-size: 26px;
+    line-height: 1.85;
+    text-align: left;
+    color: #f44336;
+}
+
+.address p {
+    width: 386px;
+    font-family: 'RobotoCondensed-Light', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    font-stretch: condensed;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #9e9e9e;
+}
+
+.address span {
+    color: #f44336;
+}
+
+.forms_mess {
+    margin: 0;
+}
+
+.form-name,
+.form-email {
+    width: 470px;
+    height: 42px;
+    border: solid 1px #999999;
+    padding-left: 13px;
+    margin-bottom: 21px;
+}
+
+.btn_massage {
+    position: relative;
+    width: 140px;
+    height: 40px;
+    background-color: #f44336;
+}
+
+.btn_massage:hover {
+    background-color: brown;
+}
+
+.massage-f {
+    width: 470px;
+    height: 168px;
+    border: solid 1px #999999;
+    padding-left: 13px;
+    margin-bottom: 21px
+}
+
+/*************ROUTE MAP*********************/
+.map_games {
+    text-align: center;
+    padding-top: 25px;
+}
+
+/********************footer**********************/
+.footer {
+    height: 71px;
+    background-color: lightskyblue;
+    background-color: #000000;
+    font-family: 'ArialNarrow', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    line-height: 1.38;
+    letter-spacing: 0.16px;
+    text-align: center;
+    color: #ffffff;
+    padding-top: 25px;
+}
+
+/***********************СТРАНИЦА КОНТАКТОВ***************/
+.contacts_page {
+    width: 1920px;
+    margin: 0 auto;
+}
+
+.contacts_page .header {
+    background-color: #f7f7f7;
+}
+
+.contacts_page .head {
+    background-color: #4a4a4a;
+}
+
+.contacts_page .menu {
+    border-bottom: 1px solid #4a4a4a;
+}
+
+.contacts_page .menu-main a,
+.contacts_page .menu-main a:visited {
+    color: #a1a1a1;
+}
+
+.contacts_page .menu-main a.current,
+.contacts_page .menu-main a:hover {
+    color: #4a4a4a;
+}
+
+.contacts_page .menu-main a:before,
+.contacts_page .menu-main a:after {
+    content: "";
+    position: absolute;
+    height: 3px;
+    top: auto;
+    right: 50%;
+    bottom: -5px;
+    left: 50%;
+    background: #4a4a4a;
+    transition: .8s;
+}
+
+.contacts_page .menu-main a:hover:before,
+.contacts_page .menu-main .current:before {
+    left: 0;
+}
+
+.contacts_page .menu-main a:hover:after,
+.contacts_page .menu-main .current:after {
+    right: 0;
+}
+
+.contacts_page .contact {
+    height: 680px;
+    background-color: #e8e8e8;
+}
+
+.map_block {
+
+    height: 560px;
+    background-color: #f7f7f7;
+}
+
+.map_block h2 {
+    text-align: center;
+    padding-top: 90px;
+    padding-bottom: 20px;
+}
+
+.contacts_page .form-name,
+.contacts_page .form-email,
+.contacts_page .massage-f {
+    border: 1px solid #000000;
+}
+
+.footer span {
+    color: red;
+}
+
+/****************СТРАНИЦА ГАЛЛЕРЕЯ*********************/
+
+.gallery_page {
+    width: 1920px;
+    margin: 0 auto;
+}
+
+.gallery_page .head {
+    background-color: #4a4a4a;
+}
+
+.gallery_page .header {
+    background-color: #f7f7f7;
+}
+
+.gallery_page .menu {
+    border-bottom: 1px solid #4a4a4a;
+}
+
+.gallery_page .menu-main a,
+.gallery_page .menu-main a:visited {
+    color: #a1a1a1;
+}
+
+.gallery_page .menu-main a.current,
+.gallery_page .menu-main a:hover {
+    color: #4a4a4a;
+}
+
+.gallery_page .menu-main a:before,
+.gallery_page .menu-main a:after {
+    content: "";
+    position: absolute;
+    height: 3px;
+    top: auto;
+    right: 50%;
+    bottom: -5px;
+    left: 50%;
+    background: #4a4a4a;
+    transition: .8s;
+}
+
+.gallery_page .menu-main a:hover:before,
+.gallery_page .menu-main .current:before {
+    left: 0;
+}
+
+.gallery_page .menu-main a:hover:after,
+.gallery_page .menu-main .current:after {
+    right: 0;
+}
+
+.gallery_page .form-name,
+.gallery_page .form-email,
+.gallery_page .massage-f {
+    border: 1px solid #000000;
+}
+
+.gallery_page .contact {
+    background-color: #f7f7f7;
+}
+
+.gallery_page .contact {
+    height: 680px;
+}
+
+.gallery_page .gallery {
+    height: 1500px;
+}
+
+.gallery_page .games_gallery {
+    margin: 0 315px 0 315px;
+}
+
+.gallery_page .card {
+    margin: 0 15px;
+}
+
+.gallery .c_1 {
+    margin-bottom: 80px;
+}
+
+.gallery_page .gallery {
+    background-color: #f7f7f7;
+}
+
+.gallery_page .card-title-gal {
+    width: 150px;
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.bottom_more {
+    text-align: center;
+}
+
+.more {
+    height: 37px;
+    width: 207px;
+    font-size: 16px;
+    font-family: 'RobotoCondensed', sans-serif;
+    color: rgb(0, 0, 0);
+    line-height: 1.345;
+    font-weight: 600;
+    text-align: center;
+}
+
+.discount {
+    width: auto;
+    height: 560px;
+}
+
+.discount-card {
+    width: 960px;
+    height: 562px;
+}
+
+.dis1 {
+    background-image: url(img/11_1.png);
+    float: left;
+}
+
+.dis2 {
+    background-image: url(img/11_2.png);
+    float: right;
+}
+
+.discount-card-body {
+    width: 495px;
+    height: 562px;
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 152px 0 0 116px;
+}
+
+.discount-card-text_1 {
+    font-family: 'Poppins-Medium', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 2;
+    text-align: left;
+    color: #010101;
+}
+
+.discount-card-title {
+    font-family: 'Myriad Pro Regular'. sans-serif;
+    font-size: 36px;
+    line-height: 1;
+    text-align: left;
+    color: #f44336;
+}
+
+.discount-card-text_2 {
+    font-family: 'Poppins-Light', sans-serif;
+    font-size: 62px;
+    font-weight: 300;
+    line-height: 1.33;
+    text-align: left;
+    color: #000000;
+}
+
+.discount-card-text_2 span {
+    font-size: 36px;
+    color: #8c8c8c;
+    text-decoration: line-through;
+}
+
+.discount-btn {
+    width: 265px;
+    height: 62px;
+    border: solid 1px #000000;
+    background-color: #f44336;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+/****************************СТРАНИЦА ИГРЫ******************/
+.similar_games {
+    height: 730px;
+    background-color: #e4e4e4;
+}
+
+.similar_games h2 {
+    text-align: center;
+    padding: 49px 0 80px;
+}
+.similar_games .card-body-gal{
+    background-color: #e4e4e4;
+}
+
+.game {
+    height: 767px;
+    background-color: #f7f7f7;
+    padding: 175px 475px 178px;
+}
+
+.game-pic {
+    width: 470px;
+    height: 450px;
+    float: left;
+}
+
+.about-game {
+    width: 470px;
+    height: auto;
+    height: 450px;
+    float: right;
+}
+
+.assassin-gallery {
+    padding-top: 41px;
+}
+
+.assassin-gallery .img-as {
+    padding: 15px 10px;
+}
+
+.assassin-gallery .shadow_pic {
+    background: #f7f7f7;
+    /* Цвет фона */
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.9);
+    /* Параметры тени */
+    margin: 0 10px;
+}
+
+.card-body-assassin .card-title-assassin {
+    font-family: 'Poppins', sans-serif;
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 1;
+    text-align: center;
+    color: #000000;
+}
+
+.card-title-assassin span {
+    color: #f44336;
+}
+
+.card-body-assassin .card-price-assassin {
+    font-family: 'Poppins', sans-serif;
+    font-size: 62px;
+    font-weight: 300;
+    line-height: 0.77;
+    text-align: center;
+    color: #000000;
+    padding: 21px 0 5px;;
+}
+
+.card-body-assassin .btn-assassin {
+    width: 470px;
+    height: 62px;
+    background-color: #f44336;
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+    letter-spacing: 0.3px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.card-body-assassin .card-text-assassin {
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 2;
+    letter-spacing: 0.12px;
+    text-align: left;
+    color: #999999;
+    padding-top: 32px;
+}
+.btn-assassin:hover{
+    background-color: blue;
+}
+.card-assassin-page:hover{
+    outline: 5px solid red;
+}
